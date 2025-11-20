@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Общая информация - Папин Олимпос</title>
+    <style>
+        /* Все стили из главной страницы плюс дополнительные */
+        .member-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+        
+        .member-card {
+            border: 2px solid #380577;
+            border-radius: 10px;
+            padding: 15px;
+            background-color: #f9f9f9;
+        }
+        
+        .member-img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            float: left;
+            margin-right: 15px;
+            object-fit: cover;
+        }
+        
+        .former-members {
+            background-color: #e8f4f8;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="centered">
+            <a href="index.html">Главная</a> | 
+            <a href="Info.html">Общая информация</a> | 
+            <a href="History.html">История</a> | 
+            <a href="Disc.html">Дискография</a> | 
+            <a href="Link.html">Источники</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1 class="centered">Общая информация</h1>
+        
+        <div class="basic-info">
+            <p><strong>Название:</strong> "Папин Олимпос" - российская рок-группа.</p>
+            <p><strong>Страна:</strong> Россия (г. Волгоград)</p>
+            <p><strong>Годы:</strong> 2018-н.в.</p>
+        </div>
+
+        <h2>Состав группы:</h2>
+        <div class="member-grid">
+            <div class="member-card">
+                <img src="https://via.placeholder.com/100" alt="Давид Сайфуллоев" class="member-img">
+                <h3>Давид Сайфуллоев</h3>
+                <p>Вокал</p>
+            </div>
+            
+            <div class="member-card">
+                <img src="https://via.placeholder.com/100" alt="Даниил Сущенко" class="member-img">
+                <h3>Даниил Сущенко</h3>
+                <p>Ударные</p>
+            </div>
+            
+            <div class="member-card">
+                <img src="https://via.placeholder.com/100" alt="Андрей Густей" class="member-img">
+                <h3>Андрей Густей</h3>
+                <p>Гитара</p>
+            </div>
+            
+            <div class="member-card">
+                <img src="https://via.placeholder.com/100" alt="Илья Щёголев" class="member-img">
+                <h3>Илья Щёголев</h3>
+                <p>Бас-гитара</p>
+            </div>
+        </div>
+
+        <div class="former-members">
+            <h3>Бывшие участники:</h3>
+            <ul>
+                <li>Елизавета Андреева (клавишные)</li>
+                <li>Леонид Алёшин (бас-гитара)</li>
+                <li>Владимир Соловьёв</li>
+            </ul>
+        </div>
+    </main>
+
+    <footer>
+        <div class="green-line"></div>
+        <p class="copyright">&copy; Все права защищены.</p>
+    </footer>
+</body>
+</html>
